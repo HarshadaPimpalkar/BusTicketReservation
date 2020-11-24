@@ -1,0 +1,98 @@
+Title : Bus Reservation System
+
+Group Members : Harshada Pimpalkar 1138
+                            Anjali Rupchandani 1118
+
+List of Actors : 1. Administrator
+                       2. Passengers
+                     
+1.Introduction
+
+   Purpose:
+
+     This document is meant to delineate the features of BRS,so as to serve as a guide to the developers 
+on one hand and a software validation document for the prospective client on the other.
+The Bus Reservation System is developed for the Travellers to reserve seats online and to save them from hassles.It will 
+allow the passengers to enjoy the booking of bus tickets form the present position through internet.
+They will be provided with the bus routes along with some other facilities like booking the tickets based on 
+there comfort level,the time of arrival and the departure,canceling the tickets.The administrator can handle 
+the various aspects like applying the offers,changing the facilities according to price,can monitor various
+other things.
+ 
+2.Scope of Project
+
+This application can be used by any Travel Agent to issue the tickets to the customers.It also helps the customer to enquire the availability of seats
+in a particular bus at particular date from the particular location.It will also provide the facility to check the timings and schedule of the buses. 
+
+3.Functional Requirements:
+   
+   This section provides requirement overview of the system. Various functional modules that can be implemented by this system will be-
+   Description:
+        Registration:
+               Registration if customer wants to book the bus ticket then he/she must be registered.Unregistered user will not be allowed to access the site.
+        Login:
+              The passenger who have registered can login to the system by entering the valid user id and password.
+	If admin logins, they can add or remove bus, can change the price and the timings.
+	If user logins, they can book the ticket from their particular location to their desired distination.
+        Selection of Source and destination:
+              The passenger will be able to choose the source and destination.
+        Available Buses:
+              After the selection of the source , destination, date the available buses for the specific route along with the time will be shown to the user.
+        Bus Route:
+              The Route to be followed by the bus while travelling from source to the destination will be shown to the user.
+        Ticket Booking:
+               The passenger will be able to book the tickets as per their comfort of price,bus catagory,time,date etc.
+        Logout:
+               After the payment of the ticket the customer will be logged out.
+        Report Generation:
+               After all transation the system will generate the online ticket and will send one copy to passenger's Email- address and 
+        another one to the system database to maintain the records of the passengers along with the travelling details.
+
+        The term client/server refers primarily to an architecture or logical division of responsibilities,the client is the application (also known as the front-end),
+       and the server is the RDBMS (also known as the back-end).
+        A client/server system is a distributed system in which,Some sites are client sites and others are server sites.
+        All the data resides at the server sites.
+        All applications execute at the client sites.
+        
+4.Technical Issues:
+	This system will work on client-Server architecture. It will require an internet server.
+	The system should support some commonly used browser such as Chrome etc.
+	Interface Requirement Various interfaces for the product could be 
+	1.Login Page, 
+	2.Registration form
+
+	The customers may select the different options which will be open in another screen as
+               1.Login Page
+               2.Registration Form
+               3.Source and destination (state wise)
+               4.Journey Date
+               5.Search Buses
+               6. select pickup and drop location.	
+               7.Offers
+               8.Route Directories
+               9.Payment Gateways
+
+5. Hardware Interface:
+	The System must run over the internet,
+        All the hardware shall require to connect to internet will be hardware interface for the system.
+		e.g. modem,  WAN, LAN
+		Specialized Server Infrastructure Hardware
+        The system should use distrubuted servers i.e cloud for managing large amount of data so as to make it appear as single unit for end-user.
+        The system should have proper clusters for backup.
+
+6.Performance Requirement:
+	There is no  performance requirement in this system, because the server request  and response to client is totally based on internet 
+                connection of end user.
+
+7.Design Constrains:
+        This system should be developed using  Standard Web Page Development Tool , which conforms GUI standards such like HTML, XML, JSON,etc.
+        The system should support various RDMS and Cloud Technologies.
+
+8.Operational Senario:
+        The passenger will login and will enter the source, destination and date .The system will show all the buses from that route reaching to the entered 
+destination along with the bus-type and the seats available for booking along with the fair.The passenger will choose the bus seat according to there 
+comfort and choice.The payment will be done and the online bus ticket will be generated and will be send on the email address of the user.The user will
+also be provided with the ticket cancelation option.
+
+
+			
